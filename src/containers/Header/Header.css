@@ -1,0 +1,23 @@
+#header {
+    font-family: 'Ostrich Sans';
+    text-align: center;
+    padding: 8px;
+}
+
+#header h1 {
+    font-size: 28px;
+}
+
+#header h6 {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+    #header h6 {
+        font-size: 32px;
+    }
+}

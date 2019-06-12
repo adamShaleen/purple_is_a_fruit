@@ -1,0 +1,16 @@
+#social_icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    font-size: 22px;
+}
+
+@media (min-width: 768px) {
+    #social_icons {
+        font-size: 35px;
+        justify-content: center;
+    }
+    #social_icons a {
+        margin: 8px;
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "purple_is_a_fruit",
+  "author": "Adam Shaleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamShaleen/purple_is_a_fruit/issues"
+  },
+  "homepage": "https://github.com/adamShaleen/purple_is_a_fruit#readme",
+  "version": "1.0.0",
+  "description": "blog experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.473.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.1",
+    "express": "^4.17.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "prop-types": "^15.7.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamShaleen/purple_is_a_fruit.git"
+  }
+}

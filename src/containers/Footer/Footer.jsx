@@ -1,16 +1,14 @@
-import React from 'react';
-import Icon from '../../components/Icon/Icon.jsx';
-import './Footer.css';
+import React from "react";
+import Icon from "../../components/Icon/Icon.jsx";
+import "./Footer.css";
 
 const Footer = () => {
     return (
-        <div>
             <section id="social_icons">
                 <Icon url="https://github.com/adamShaleen" icon_class="fab fa-github-alt" />
                 <Icon url="https://www.instagram.com/adam_shaleen/" icon_class="fab fa-instagram" />
                 <Icon url="https://www.linkedin.com/in/adamshaleen/" icon_class="fab fa-linkedin" />
             </section>
-        </div>
     )
 }
 

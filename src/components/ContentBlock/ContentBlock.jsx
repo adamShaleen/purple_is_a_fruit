@@ -1,13 +1,18 @@
-import React from 'react';
-import './ContentBlock.css';
+import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "./ContentBlock.css";
 
 const ContentBlock = ({ image, text }) => {
 
     return (
-        <div className="contentBlock">
-            <img className="contentBlock_image" src={image} alt="" />
+        <section className="contentBlock">
+            <LazyLoadImage 
+                src={image}
+                width="100%"
+                effect="blur"/>
             <p className="contentBlock_text">{text}</p>
-        </div>
+        </section>
     )
 }
 

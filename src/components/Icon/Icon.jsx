@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const Icon = ({ url, icon_class }) => {
     return (
-        <div>
+        <section>
             <a href={url} target="_blank" rel="noopener noreferrer">
                 <i className={icon_class}></i>
             </a>
-        </div>
+        </section>
     )
 }
 

@@ -5,7 +5,6 @@ const Header = () => {
     return (
         <section id="header">
             <h1>Purple is a fruit</h1>
-            <h6>And other nonsense</h6>
         </section>
     )
 }

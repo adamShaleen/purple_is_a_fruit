@@ -1,7 +1,7 @@
 import React from 'react';
 import './Entry.css';
-import ContentBlock from '../../components/ContentBlock/ContentBlock.jsx';
-import Tag from '../../components/Tag/Tag.jsx';
+import ContentBlock from '../../components/ContentBlock/ContentBlock';
+import Tag from '../../components/Tag/Tag';
 
 const Entry = ({ title, date, contentBlocks, tags }) => {
     return (

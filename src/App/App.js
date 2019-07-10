@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import "./App.css";
-import Header from "../../containers/Header/Header.jsx";
-import Entry from "../../containers/Entry/Entry.jsx";
-import Footer from "../../containers/Footer/Footer.jsx";
-import Content from "../../stub/stub.js";
+import Header from "../containers/Header/Header";
+import Entry from "../containers/Entry/Entry";
+import Footer from "../containers/Footer/Footer";
+import Content from "../stub/stub.js";
 
 const App = () => {
     // const [entries, setEntries] = useState([]);
@@ -38,4 +37,4 @@ const App = () => {
       );
 }
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+export default App;

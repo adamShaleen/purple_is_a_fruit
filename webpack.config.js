@@ -1,10 +1,27 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const path = require("path");
 
 module.exports = {
+    devtool: "cheap-module-eval-source-map",
     entry: [
         "babel-polyfill",
-        "./src/containers/App/App.jsx"
+        "./src/index.js"
     ],
+    performance: { hints: false },
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "bundle.js",
+        publicPath: ""
+    },
+    resolve: {
+        extensions: [".js", ".jsx"]
+    },
+    devServer: {
+        historyApiFallback: true,
+        contentBase: "./dist",
+        hot: true
+    },
     module: {
         rules: [
             {
@@ -16,6 +33,7 @@ module.exports = {
             },
             {
                 test: /\.html$/,
+                exclude: /node_modules/,
                 use: [
                     {
                         loader: "html-loader"
@@ -33,8 +51,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
-        })
+            template: `${__dirname}/src/index.html`,
+            filename: "index.html"
+        }),
+        new CleanWebpackPlugin()
     ]
   };

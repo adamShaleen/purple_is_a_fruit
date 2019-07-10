@@ -1,1 +1,9 @@
-import App from "./containers/App/App.jsx";
+import App from "./App/App"
+import React from "react";
+import ReactDOM from "react-dom";
+
+const app = (
+    <App/>
+);
+
+ReactDOM.render(app, document.getElementById("root"));

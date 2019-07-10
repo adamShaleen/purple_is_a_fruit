@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "../containers/Header/Header";
 import Entry from "../containers/Entry/Entry";
 import Footer from "../containers/Footer/Footer";
-import Content from "../stub/stub.js";
+import Content from "../stub/stub";
 
 const App = () => {
     // const [entries, setEntries] = useState([]);

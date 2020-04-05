@@ -1,0 +1,48 @@
+{
+    "name": "bunchodudes",
+    "version": "1.0.0",
+    "description": "call more dudes",
+    "main": "index.tsx",
+    "dependencies": {
+        "@types/react": "^16.8.3",
+        "@types/react-dom": "^16.8.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-lazy-load-image-component": "^1.4.1",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.7.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "@babel/preset-typescript": "^7.7.7",
+        "@testing-library/react": "^9.4.0",
+        "@types/jest": "^24.9.1",
+        "babel-jest": "^24.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "css-loader": "^3.4.2",
+        "jest": "^24.9.0",
+        "jest-transform-css": "^2.0.0",
+        "serve": "^11.3.0",
+        "style-loader": "^1.1.3",
+        "ts-jest": "^24.3.0",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack -w",
+        "start": "npx serve",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adamShaleen/bunchodudes.git"
+    },
+    "author": "Adam Shaleen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adamShaleen/bunchodudes/issues"
+    },
+    "homepage": "https://github.com/adamShaleen/bunchodudes#readme"
+}

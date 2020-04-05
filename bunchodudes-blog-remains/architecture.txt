@@ -1,0 +1,1 @@
+I'm quitting... react/typescipt/babel/webpack... go to hell. Gonna try and use an out of the box solution for this project since I don't really care about the front end anyway.
